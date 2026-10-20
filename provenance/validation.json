@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-20",
+  "destination_import_commit": "ea36ae4",
+  "source_cleanup_prepared_commit": "30c173d5",
+  "preserved_artifacts": 851,
+  "python_sources_ast_checked": 44,
+  "source_new_broken_links": 0,
+  "destination_broken_current_doc_links": 0,
+  "saved_scoring_replays": [
+    {
+      "path": "results/summary.json",
+      "byte_identical": true,
+      "json_identical": true,
+      "saved_sha256": "e2137053b57c19d84d28de5b140202b101ed1d5acd1602dc98c49f8f74dc75d6",
+      "replayed_sha256": "e2137053b57c19d84d28de5b140202b101ed1d5acd1602dc98c49f8f74dc75d6"
+    },
+    {
+      "path": "essay_h2_rerun/summary.json",
+      "byte_identical": true,
+      "json_identical": true,
+      "saved_sha256": "2d62675f7fb6d0167c1d94726cf24d2328d506b32936ecfdcb63a3dfe1bdf32f",
+      "replayed_sha256": "2d62675f7fb6d0167c1d94726cf24d2328d506b32936ecfdcb63a3dfe1bdf32f"
+    },
+    {
+      "path": "essay_h2_check/summary.json",
+      "byte_identical": true,
+      "json_identical": true,
+      "saved_sha256": "9c6adde844baaea075d81f12cf7d307a66b1f6a738b8e847a5e92326d01844d4",
+      "replayed_sha256": "9c6adde844baaea075d81f12cf7d307a66b1f6a738b8e847a5e92326d01844d4"
+    }
+  ],
+  "t6_wall_seconds": 232.76757216453552,
+  "setup_correction": "The first T6 replay stopped at missing data/t6/pilot.json before producing output. tools/prepare_t6_replay.py restores the committed pilot and reconstructs original deterministic neuron indices. A single complete retry ran in disposable scratch storage. Original scorer and summary remained untouched.",
+  "scope": "Administrative migration integrity and saved-score reproducibility, not new model evaluation or scientific promotion. Original caches absent; no model/activation collection or agent calls."
+}
