@@ -10,7 +10,7 @@ The latest recorded result supports a scoped descriptive claim: about **65% of n
 - [T6 larger rerun](essay_h2_rerun/README.md): its control-validity gate failed, so its preregistered verdict remains inconclusive.
 - [T383 independent check](essay_h2_check/README.md): gate-passing controls and a texture-matched neuron arm.
 - [Independent review scripts](review/README.md).
-- [Migration provenance and integrity manifest](provenance/README.md): original files, exact source commits, and SHA-256 hashes. Supplemental [AlgZoo evidence](algzoo/README.md) supplies context for the original combined report; ongoing ARC research lives in [clean-neurons](https://github.com/panaali/clean-neurons).
+- [Migration provenance and integrity manifest](provenance/README.md): original files, exact source commits, and SHA-256 hashes. Supplemental [AlgZoo evidence](algzoo/README.md) supplies context for the original combined report; ongoing ARC research lives in [Beyond Sampling](https://github.com/panaali/beyond-sampling).
 
 ## Reproduce saved scoring
 
